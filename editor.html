@@ -31,8 +31,3 @@ function updateOverlay(){const box=document.querySelector('#overlay');box.hidden
 document.querySelector('#demo').onchange=updateOverlay;video.addEventListener('timeupdate',updateOverlay);video.addEventListener('seeked',updateOverlay);document.querySelector('#copy').onsubmit=e=>e.preventDefault();window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});
 form.onsubmit=event=>event.preventDefault();refresh();setInterval(refresh,2000);
 </script></html>
-
-
-
-
-
