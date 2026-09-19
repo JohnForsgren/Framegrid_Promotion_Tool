@@ -10,7 +10,7 @@ Reuse the approved horizontal v7 animation with small text, timing and image cha
 4. Click **Save & render video**. Wait for “Render complete”. The player then shows the new export.
 5. Find the finished video in **Videos/framegrid_main_horizontal_v8.mp4**.
 
-Turn on **Demo / timing overlay** above the player to identify the current scene, phase and matching setting. Scene buttons jump to that part. The overlay and playback-speed menu affect the preview only; the normal MP4 is clean. The player always describes the last rendered video, not unsaved edits.
+Turn on **Show timing information** below the player to identify the current scene, phase and matching setting. Scene buttons jump to that part. The information panel sits below the video without covering it. The panel and playback-speed menu affect the preview only; the normal MP4 is clean. The player always describes the last rendered video, not unsaved edits.
 
 **Save settings** saves without rendering. Alternatively, edit `timings.json` and `content.json` in a text editor, then double-click **render-video.cmd**. Close/reopen the editor after editing JSON externally. Every successful render replaces v8, so copy it elsewhere first if you want to keep a variant. Failed renders retain the previous MP4. The video is silent.
 

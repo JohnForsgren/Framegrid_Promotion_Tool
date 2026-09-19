@@ -2,7 +2,7 @@
 
 Current export: `Videos/framegrid_main_horizontal_v8.mp4`, 56.5s silent, 1920×1080, 30fps, 1695 frames. Full decode passed. Four sampled pre-closing previews are pixel-identical to v7. Closing shows “Discover what is possible” with technology/guidance wording; final creative approval is the user's.
 
-Start with README.md. `editor.py` serves loopback-only text/timing controls; `editor.html` derives its timing overlay from the exported snapshot, not unsaved inputs. `film.py` owns scenes, transitions, exports and validation. `simple_demo.py` owns the illustrated reference/prompt/result sequence. `config.py` validates copy and loads images. No historical renderer imports remain.
+Start with README.md. `editor.py` serves loopback-only text/timing controls; `editor.html` shows timing information below the video and derives it from the exported snapshot, not unsaved inputs. `film.py` owns scenes, transitions, exports and validation. `simple_demo.py` owns the illustrated reference/prompt/result sequence. `config.py` validates copy and loads images. No historical renderer imports remain.
 
 Inputs: `content.json`, `timings.json`, `assets.json`, `project.json`. Image library remains in neighboring `framegrid-video-prototype`; do not delete it. Existing asset crops are deliberate. Code changes must preserve the six-example layout unless requested. Application source remains read-only.
 
