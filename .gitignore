@@ -1,0 +1,9 @@
+.packages/
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+Videos/
+output/
+.test-output/

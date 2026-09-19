@@ -1,0 +1,39 @@
+{
+  "opening": 3.0,
+  "references": 3.0,
+  "prompt": 5.0,
+  "result": 3.5,
+  "closing": 6.0,
+  "chapters": [
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    },
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    },
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    },
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    },
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    },
+    {
+      "input": 1.5,
+      "reveal": 1.3,
+      "hold": 3.2
+    }
+  ]
+}

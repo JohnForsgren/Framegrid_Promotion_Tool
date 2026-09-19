@@ -1,0 +1,186 @@
+{
+  "sketch": {
+    "path": "cinematic-v4/assets/sketch.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "jewel": {
+    "path": "cinematic-v4/assets/jewel.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "poster": {
+    "path": "cinematic-v4/assets/poster.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "actor1": {
+    "path": "cinematic-v4/assets/actor1.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "actor2": {
+    "path": "cinematic-v4/assets/actor2.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "thumbsketch": {
+    "path": "cinematic-v4/assets/thumbsketch.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "thumb": {
+    "path": "cinematic-v4/assets/thumb.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "plan": {
+    "path": "cinematic-v4/assets/plan.png",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "room": {
+    "path": "cinematic-v4/assets/room.jpg",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "sofa": {
+    "path": "cinematic-v4/assets/sofa.jpg",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "rug": {
+    "path": "cinematic-v4/assets/rug.jpg",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "table": {
+    "path": "cinematic-v4/assets/table.jpg",
+    "thumbnail": [
+      1920,
+      1600
+    ]
+  },
+  "env": {
+    "path": "workflow-v3/assets/inspiration-gallery/3-modify-or-create-real-life-environments/complex-real-life-scenes/1-the-room.webp",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "cat": {
+    "path": "workflow-v3/assets/inspiration-gallery/3-modify-or-create-real-life-environments/complex-real-life-scenes/2-the-lioncat.webp",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "woman": {
+    "path": "workflow-v3/assets/inspiration-gallery/3-modify-or-create-real-life-environments/complex-real-life-scenes/3-person.webp",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "cat_single": {
+    "path": "workflow-v3/assets/inspiration-gallery/3-modify-or-create-real-life-environments/complex-real-life-scenes/2-the-lioncat.webp",
+    "crop_fraction": [
+      0,
+      0,
+      0.5,
+      1
+    ]
+  },
+  "scene": {
+    "path": "workflow-v3/assets/inspiration-gallery/3-modify-or-create-real-life-environments/complex-real-life-scenes/output-1.webp",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "char_input": {
+    "path": "character-v4/assets/1_Sketch.png",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "char_output": {
+    "path": "character-v4/assets/OUTPUT.png",
+    "thumbnail": [
+      1700,
+      1500
+    ]
+  },
+  "wrist": {
+    "source": "jewel",
+    "crop_fraction": [
+      0,
+      0,
+      0.5,
+      1
+    ]
+  },
+  "face1": {
+    "source": "actor1",
+    "crop_fraction": [
+      0,
+      0,
+      0.48,
+      1
+    ]
+  },
+  "face2": {
+    "source": "actor2",
+    "crop_fraction": [
+      0,
+      0,
+      0.34,
+      1
+    ]
+  },
+  "poster_detail_v6": {
+    "source": "poster",
+    "crop_fraction": [
+      0,
+      0.1,
+      1,
+      0.61
+    ]
+  },
+  "character_detail_v6": {
+    "source": "char_output",
+    "crop_fraction": [
+      0.15,
+      0,
+      0.85,
+      0.53
+    ]
+  },
+  "logo": {
+    "path": "workflow-v3/assets/logo/Framegrid Transparent.png",
+    "mode": "RGBA"
+  }
+}
