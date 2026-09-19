@@ -9,6 +9,7 @@ Reuse the approved horizontal v7 animation with small text, timing and image cha
 3. Open **Video text** to change wording. Use short phrases. Wording baked into source images (such as poster titles) requires editing or replacing the image.
 4. Click **Save & render video**. Wait for “Render complete”. The player then shows the new export.
 5. Find the finished video in **Videos/framegrid_main_horizontal_v8.mp4**.
+6. To preserve a chosen export in Git, copy it into **Saved-Videos**. Files in that folder are tracked and pushed.
 
 Turn on **Show timing information** below the player to identify the current scene, phase and matching setting. Scene buttons jump to that part. The information panel sits below the video without covering it. The panel and playback-speed menu affect the preview only; the normal MP4 is clean. The player always describes the last rendered video, not unsaved edits.
 
@@ -22,7 +23,7 @@ For a simple replacement, use an image with similar proportions and update its p
 
 ## GitHub setup
 
-This is a separate local Git repository. It has no GitHub Actions or application deployment configuration. Generated videos, installed packages and render logs are excluded. After creating an empty GitHub repository, run these commands from this folder, substituting your own repository URL:
+This is a separate local Git repository. It has no GitHub Actions or application deployment configuration. Routine generated videos, installed packages and render logs are excluded. Selected exports placed in **Saved-Videos** are included in Git. After creating an empty GitHub repository, run these commands from this folder, substituting your own repository URL:
 
 ```powershell
 git remote add origin https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY.git
