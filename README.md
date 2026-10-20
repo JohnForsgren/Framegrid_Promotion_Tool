@@ -4,9 +4,15 @@ A reusable Windows tool for making small text, timing and image changes to the c
 
 Repository: https://github.com/JohnForsgren/Framegrid_Promotion_Tool
 
+## Local location
+
+Moved on 2026-10-20 from Documents/ChatGPT/Framegrid Local Assistant into the Framegrid application's tools/framegrid-video folder. Double-click start-editor.cmd here to open the editor. Required image library moved alongside it to tools/framegrid-video-prototype; project.json needs no path change. Keep both folders together.
+
+This tool retains its separate Git repository, original history and GitHub remote (Framegrid_Promotion_Tool). The selected video was already renamed locally before relocation. Routine rendering still writes Videos/framegrid_main_horizontal_v8.mp4.
+
 ## Current video
 
-The latest selected export is `Saved-Videos/framegrid_main_horizontal_v8.mp4`:
+The latest selected export is `Saved-Videos/Framegrid Promotional Video (2026-09-19).mp4`:
 
 - 56.5 seconds
 - 1920×1080 at 30 fps
@@ -14,7 +20,7 @@ The latest selected export is `Saved-Videos/framegrid_main_horizontal_v8.mp4`:
 - Full decode and frame-count validation passed
 - Ending: “Discover what is possible”
 
-`Saved-Videos` is tracked by Git. Put videos there when you deliberately want to preserve and push them. The normal render folder, `Videos`, is ignored so repeated test renders do not fill the Git history.
+`Saved-Videos`, `Videos`, all media and installed packages are ignored. Keep selected exports locally and upload them to the Drive folder below; do not commit videos to either Git repository.
 
 ## Edit and render
 
@@ -26,7 +32,7 @@ The latest selected export is `Saved-Videos/framegrid_main_horizontal_v8.mp4`:
 3. Expand **Video text** to change the on-screen wording. Keep replacement text reasonably short. Text already baked into an image, such as a poster title, cannot be changed here.
 4. Click **Save & render video** and wait for “Render complete”.
 5. Review the result in the player or open `Videos/framegrid_main_horizontal_v8.mp4`.
-6. When you want to keep that version, copy it into `Saved-Videos` with a useful filename, then commit and push it.
+6. When you want to keep that version, copy it into `Saved-Videos` with a useful filename, then upload it to the designated Drive media folder.
 
 **Save settings** stores text and timing changes without rendering. A successful render replaces the current file in `Videos`; a failed render leaves the previous MP4 intact.
 
@@ -67,7 +73,7 @@ git commit -m "Describe the update"
 git push
 ```
 
-Tracked content includes the generator, settings, documentation and selected exports in `Saved-Videos`. Routine outputs, previews, logs, installed packages and videos left in `Videos` are ignored.
+Tracked content includes generator source, settings and documentation only. Selected exports, routine outputs, previews, logs and installed packages are ignored. The parent application ignores this independent repository; push changes from this folder separately.
 
 ## Setup on another Windows computer
 
@@ -81,3 +87,9 @@ py -3.11 -m venv .venv
 The launchers prefer `.venv`. On the original Codex computer they can fall back to the bundled Codex Python runtime. Rendering uses Windows Segoe UI fonts and requires no model API, AI credits or internet connection once dependencies are installed.
 
 For a separate MP4 with timing information burned into the picture, run `film.py --render --demo` with the configured Python. This does not replace the normal clean export.
+
+## Media and creative direction (October 20, 2026)
+
+Final promotional images/videos: keep locally and upload to https://drive.google.com/drive/folders/1NRObjKSDmUjcad51F7hIfiuVsL0Xv4uy (Framegrid Promotional-related files). Existing source/selected-master library: https://drive.google.com/drive/folders/1zW4vbxRawIcOOmOZnz0cG7AEn5vjl2bA . See ../PROMOTION-PROJECTS.md for checkout restoration and repository boundaries. This supersedes old instructions to commit selected MP4s.
+
+The owner now prioritizes large visuals, minimal copy, clear website CTA and smoother purposeful animation. This older six-example composition is a reusable tool, not the required direction. The imported Windows launchers retain their existing Python/runtime assumptions; no new Windows environment is authorized by this import. Framegrid coding agents follow the repository's existing WSL/venv-linux policy.

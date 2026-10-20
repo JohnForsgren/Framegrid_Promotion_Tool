@@ -7,3 +7,18 @@ __pycache__/
 Videos/
 output/
 .test-output/
+
+# Finished media belongs in Drive, not Git (owner direction 2026-10-20).
+Saved-Videos/
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.zip
+*.exe
